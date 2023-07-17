@@ -1,5 +1,4 @@
 #include "mbed.h"
-
 int main()
 {
 
@@ -17,4 +16,4 @@ int main2()
     bttn.fall(&bttn_interrupt);
     while (true) {
     }
-
+}
